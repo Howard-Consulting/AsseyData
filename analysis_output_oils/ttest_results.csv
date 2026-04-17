@@ -1,0 +1,15 @@
+enzyme,comparison,n_treatment,n_control,t_stat,p_value,significant_alpha_0_05,test_type
+AChE,bergamot vs methanol,11,11,7.594516790227941,2.9315118165269107e-06,True,Welch two-sample t-test
+AChE,grapefruit vs methanol,11,11,5.839746716574775,5.1852586250736214e-05,True,Welch two-sample t-test
+AChE,lemon vs methanol,11,11,6.393184710372237,3.1534502167840495e-06,True,Welch two-sample t-test
+AChE,malaoxon vs methanol,11,11,0.3873882442871696,0.7026004797296901,False,Welch two-sample t-test
+AChE,mandarin vs methanol,11,11,7.623845149670616,6.948771302892358e-07,True,Welch two-sample t-test
+AChE,neroli vs methanol,11,11,4.835978924465927,0.0001226213344100279,True,Welch two-sample t-test
+AChE,orange vs methanol,11,11,2.9953366483635713,0.007957499157242552,True,Welch two-sample t-test
+BChE,bergamot vs methanol,11,11,-7.962578673475882,2.2543008039046242e-07,True,Welch two-sample t-test
+BChE,grapefruit vs methanol,11,11,-8.555576244535565,9.264398662675995e-08,True,Welch two-sample t-test
+BChE,lemon vs methanol,11,11,-10.042737740376063,1.7624352969450942e-08,True,Welch two-sample t-test
+BChE,malaoxon vs methanol,11,11,-7.494252648408861,3.199404460916312e-07,True,Welch two-sample t-test
+BChE,mandarin vs methanol,11,11,-6.952030466926064,7.788965834297496e-06,True,Welch two-sample t-test
+BChE,neroli vs methanol,11,11,-7.332255428814462,1.7669322636314669e-06,True,Welch two-sample t-test
+BChE,orange vs methanol,11,11,-5.305610276899977,8.19013337465877e-05,True,Welch two-sample t-test

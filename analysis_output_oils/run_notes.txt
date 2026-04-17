@@ -1,0 +1,13 @@
+Mapping mode: row
+Assumed row treatment map:
+  Row A: grapefruit
+  Row B: bergamot
+  Row C: orange
+  Row D: neroli
+  Row E: mandarin
+  Row F: lemon
+  Row G: malaoxon
+  Row H: methanol
+
+Reaction rate unit: absorbance units/min
+t-tests compare each treatment to control label provided.
