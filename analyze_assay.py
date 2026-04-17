@@ -271,7 +271,7 @@ def plot_timecourses(agg: pd.DataFrame, rates: pd.DataFrame, out_dir: Path):
 
         ax.set_title(f"Corrected Absorbance vs Time: {enzyme} | {treatment}")
         ax.set_xlabel("Time (min)")
-        ax.set_ylabel("Corrected Absorbance")
+        ax.set_ylabel("Corrected absorbance (AU)")
         ax.legend(fontsize=6, ncol=4)
         fig.tight_layout()
         safe = f"timecourse_{enzyme}_{treatment}".replace(" ", "_")
@@ -292,7 +292,7 @@ def plot_summary_bar(summary: pd.DataFrame, out_dir: Path):
 
     ax.set_title("Reaction Rate Means ± SD by Treatment and Enzyme")
     ax.set_xlabel("Treatment")
-    ax.set_ylabel("Reaction Rate (absorbance units/min)")
+    ax.set_ylabel("Reaction rate (ΔAbs/min)")
     fig.tight_layout()
     fig.savefig(out_dir / "rate_means_sd_barplot.png", dpi=220)
     plt.close(fig)
